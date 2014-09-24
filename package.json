@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.9.4",
+    "TF-App": "git://github.com/tdfairbrother/app.git"
+  }
+}
