@@ -1,9 +1,8 @@
 var express = require('express');
 var app = express();
 var render = require('./lib/render_react');
+var nodejsx     = require('node-jsx').install();
 var Application = require('TF-App');
-
-console.log(Application)
 
 app.get('/', render(Application));
 
